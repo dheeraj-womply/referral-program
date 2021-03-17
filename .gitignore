@@ -1,4 +1,7 @@
 node_modules/
 .cache/
 public
-.env.development
+
+# dotenv environment variable files
+.env*
+!.env.sample
