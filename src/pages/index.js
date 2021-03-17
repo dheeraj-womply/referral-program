@@ -10,6 +10,7 @@ const IndexPage = () => {
       onSuccess={res => console.log('Success response : ', res)}
       onFailure={res => console.log('Failure response : ', res)}
       cookiePolicy={'single_host_origin'}
+      scope={'https://www.googleapis.com/auth/contacts.readonly'}
     />
   )
 }
